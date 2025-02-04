@@ -100,24 +100,4 @@
             </excelMedia>
         </mediaConfig>
     </connectors>
-    <connectors layoutDetected="true" entityName="Strategy" version="25" name="Strategy" created="2025-02-04T14:37:44.427+02:00" createdBy="admin" lastUpdated="2025-02-04T14:37:44.427+02:00" lastUpdatedBy="admin" id="Strategy">
-        <connectorFields columnIndex="0" ignore="false" mapField="Name" type="text" rawType="String" allowNull="true" name="Name" id="Name"/>
-        <connectorFields columnIndex="1" ignore="false" mapField="Price to Earnings" type="integer" rawType="Long" allowNull="true" name="Price to Earnings" id="Price to Earnings"/>
-        <connectorFields columnIndex="2" ignore="false" mapField="Price to Book" type="decimal" format="0.00" rawType="BigDecimal" allowNull="true" name="Price to Book" id="Price to Book"/>
-        <connectorFields columnIndex="3" ignore="false" mapField="Dividend Yield" type="decimal" format="0.00%" rawType="BigDecimal" allowNull="true" name="Dividend Yield" id="Dividend Yield"/>
-        <connectorFields columnIndex="4" ignore="false" mapField="Expected Return" type="decimal" format="0%" rawType="BigDecimal" allowNull="true" name="Expected Return" id="Expected Return"/>
-        <connectorFields mapField="sourceName" type="text" readOnly="true" rawType="String" name="sourceName" description="Source name" id="sourceName"/>
-        <connectorFields mapField="lineNumber" type="integer" readOnly="true" rawType="Long" name="lineNumber" description="Source line number" id="lineNumber"/>
-        <dataSource connectorUrl="Stock Tutorial.xlsx">
-            <fileSource>
-                <dataSourceRefs>Stock Tutorial.xlsx</dataSourceRefs>
-            </fileSource>
-            <loadFilter/>
-        </dataSource>
-        <mediaConfig connectorMediaType="excel">
-            <excelMedia>
-                <component componentType="excelworksheet" componentId="rId4" componentName="Strategy" displayName="Strategy"/>
-            </excelMedia>
-        </mediaConfig>
-    </connectors>
 </ns3:modelConfig>
